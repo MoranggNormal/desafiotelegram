@@ -292,3 +292,16 @@ a{
     color: black;
     font-family: 'Alegreya', serif;
 }
+
+@keyframes zoomk {
+    0% {
+        transform: scale(1,1);
+    }
+    100% {
+        transform: scale(1.1,1.1);
+    }
+}
+
+.bla > article:hover{
+ animation: zoomk 1s 1 ;
+}
